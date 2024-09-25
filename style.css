@@ -1,0 +1,109 @@
+body 
+{
+    font-family:Roboto;
+   padding: 10px;
+   
+}
+.design
+{
+    background-color: rgb(255, 204, 212);
+}
+h1
+{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+   
+    
+}
+table td
+{
+    text-align: center;
+    border: 1px solid rgb(146, 146, 146);
+    border-bottom: 1px solid rgb(146, 146, 146);
+    padding: 50px;
+   
+}   
+table tr td
+{
+    padding: 13px;
+}
+
+.third-1st tr td
+{
+    background-color: yellow;
+    
+}
+.third-2nd tr td
+{
+    background-color: white;
+}
+
+.Fourth-1st tr td
+{
+    background-color: white;
+}
+.Fourth-2nd tr td
+{
+    background-color: white;
+}
+
+table
+{
+ 
+    box-shadow:0 0 20px black;
+    width: 50%;
+    border-bottom: 10px solid blue;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 15px;
+    padding: 20px;
+}
+/*For the */
+.Semester tbody tr th
+{
+    background-color: rgb(230, 228, 228);
+    
+}
+/*For bolding texts*/
+.Semester td
+{
+    font-weight: bold;
+   
+}
+/*For defaulting the color of thead*/
+.Semester thead tr
+{
+    background-color: rgb(70, 192, 240);
+}
+/*For the background color fot the tr*/
+tr{
+    background-color: lightblue;
+    
+}
+/*For Centering texts*/
+th{
+    text-align: center;
+    border: 1px solid rgb(146, 146, 146);
+    border-bottom: 1px solid rgb(146, 146, 146);
+    padding: 5px;
+    font-weight: bold;
+ 
+}
+/*For the Header color*/
+thead td:nth-child(1)
+{
+    
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+}
+/*For the Design in hovering every rows*/
+tr:hover
+{
+    background-color: rgb(95, 250, 142);
+    transform: scale(1.02);
+    box-shadow:0 0 20px black;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
